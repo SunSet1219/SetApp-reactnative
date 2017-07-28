@@ -5,11 +5,13 @@ import {
   TouchableOpacity,
   TextInput,
   Text,
-  ScrollView
+  Modal
 } from 'react-native'
 import styles from '../Styles/LoginStyles'
 import { Images } from '../DevTheme';
-import {Button} from 'react-native-elements';         
+import {Button} from 'react-native-elements';  
+import KeyboardSpacer from 'react-native-keyboard-spacer'; 
+import Home from './Home'      
 
 export default class Login extends Component {
     constructor(){
@@ -19,7 +21,8 @@ export default class Login extends Component {
             password: "",        
             state:false,
             emailapear: 0,
-            passapear: 0    
+            passapear: 0,
+            showModal: false    
         };
    
     }
@@ -43,10 +46,13 @@ export default class Login extends Component {
             </Text>
         )
     }
+    toggleModal = () => {
+        this.setState({ showModal: !this.state.showModal })
+    }
     render () {
         return (
             <Image source={Images.bg} style={styles.container}> 
-                <ScrollView>
+                
                     {this.state.emailapear === 1 ? this.userText() : null}             
                     <TextInput placeholder={this.state.emailapear === 1 ? null : 'Username'} 
                         placeholderTextColor='#fff' style={this.state.emailapear === 1 ? styles.email1 : styles.email} 
@@ -61,8 +67,14 @@ export default class Login extends Component {
                         buttonStyle={styles.button}            
                         title='SIGN IN' 
                         fontWeight='700'
+                        onPress={this.toggleModal}
                         />
-                </ScrollView>
+                    <KeyboardSpacer />
+                    <Modal
+                        visible={this.state.showModal}
+                        onRequestClose={this.toggleModal}>
+                        <Home  />
+                    </Modal>
             </Image>
         );
     }
