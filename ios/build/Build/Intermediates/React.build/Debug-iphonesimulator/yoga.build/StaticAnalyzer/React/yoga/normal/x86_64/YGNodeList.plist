@@ -6,7 +6,7 @@
 <string>Apple LLVM version 8.1.0 (clang-802.0.42)</string>
  <key>files</key>
  <array>
-  <string>/Volumes/WORK/My_Git_Repor/SetApp/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c</string>
+  <string>/Volumes/WORK/My_Git_Repor/SetApp-reactnative/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.c</string>
  </array>
  <key>diagnostics</key>
  <array>

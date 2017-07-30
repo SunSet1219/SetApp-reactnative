@@ -1,5 +1,5 @@
 dependencies: \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/SetAppTests/SetAppTests.m \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/SetAppTests/SetAppTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h \
@@ -35,14 +35,14 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Volumes/WORK/My_Git_Repor/SetApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Volumes/WORK/My_Git_Repor/SetApp-reactnative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

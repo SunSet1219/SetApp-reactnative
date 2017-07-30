@@ -3,6 +3,7 @@ import { ScrollView, Text, Image, View, TouchableOpacity } from 'react-native'
 import { Images } from '../DevTheme'
 import { StackNavigator } from 'react-navigation'
 import styles from '../Styles/HomeStyles'
+import TapBar from './Tapbar';
 
 class Home extends React.Component {
   openComponents = () => {
@@ -50,6 +51,7 @@ class Home extends React.Component {
           
           
         </ScrollView>
+        <TapBar />
         
       </View>
     )
