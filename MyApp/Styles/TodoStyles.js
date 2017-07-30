@@ -14,7 +14,7 @@ export default StyleSheet.create({
     },
     image: {
         width: 350,
-        height: 100,
+        height: 150,
         borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center'
@@ -30,10 +30,10 @@ export default StyleSheet.create({
         
     },
     label:{
-        fontFamily: 'cochin',
+        fontFamily: 'Trebuchet MS',
         color: 'white',
         fontSize: 25,
-        fontWeight: 'bold',
+        fontWeight: '900',
         backgroundColor: 'transparent' 
     }
     

@@ -3,7 +3,8 @@ import { ScrollView, Text, Image, View, TouchableOpacity,StyleSheet } from 'reac
 import { Images } from '../DevTheme'
 import { StackNavigator } from 'react-navigation'
 import styles from '../Styles/HomeStyles'
-import Todo from './Todo'
+import Todo from './Todo/TodoIndex'
+import TodoCity from './Todo/TodoCity'
 import TapBar from './Tapbar';
 
 const style = StyleSheet.create({ hideText:{ display:"none" } })
@@ -13,6 +14,7 @@ class Home extends React.Component {
   openComponents = () => {
     this.props.navigation.navigate('Home')
   }
+
   gotoTodo = () => {
     this.props.navigation.navigate('Todo',{ref: 'todo'})
   } 
@@ -62,12 +64,7 @@ class Home extends React.Component {
           </TouchableOpacity>
           <TouchableOpacity style={styles.centered1}>
            <Text style={styles.sectionText}>OTHERS</Text>
-          </TouchableOpacity>
-          
-          
-            
-          
-          
+          </TouchableOpacity> 
         </ScrollView>
         <TapBar goto={this.gotoTodo} />
         
@@ -76,9 +73,11 @@ class Home extends React.Component {
   }
 }
 
+
 export default StackNavigator({
    Home: {screen: Home},
-   Todo: {screen: Todo}
+   Todo: {screen: Todo},
+   TodoCity:{screen: TodoCity}
 }, {
   cardStyle: {
     opacity: 1,
