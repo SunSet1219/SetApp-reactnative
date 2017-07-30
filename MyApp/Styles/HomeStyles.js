@@ -21,7 +21,7 @@ export default StyleSheet.create({
     },
     sectionText: {
       color: '#A7A9AD',
-      fontFamily: 'Cochin',
+      fontFamily: 'Trebuchet MS',
       fontSize: 18,
       fontWeight: '600'
     },  
@@ -35,7 +35,7 @@ export default StyleSheet.create({
         marginTop: 25
     },
       name: {
-        fontFamily: 'Cochin', 
+        fontFamily: 'Trebuchet MS', 
         fontSize: 20,
         fontWeight: '700',
         color: 'white',
@@ -44,7 +44,7 @@ export default StyleSheet.create({
       viewprofile: {
         color: 'white',
         fontSize: 13,
-        fontFamily: 'Farah',
+        fontFamily: 'Trebuchet MS',
         marginTop:7
       },
       centered1: {
