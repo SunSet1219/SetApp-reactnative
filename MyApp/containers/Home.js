@@ -1,11 +1,15 @@
 import React from 'react'
-import { ScrollView, Text, Image, View, TouchableOpacity } from 'react-native'
+import { ScrollView, Text, Image, View, TouchableOpacity,StyleSheet } from 'react-native'
 import { Images } from '../DevTheme'
 import { StackNavigator } from 'react-navigation'
 import styles from '../Styles/HomeStyles'
+import Todo from './Todo'
 import TapBar from './Tapbar';
 
+const style = StyleSheet.create({ hideText:{ display:"none" } })
 class Home extends React.Component {
+  
+  static navigationOptions = { header: <Text style={style.hideText} ></Text> ,title: 'Back'};
   openComponents = () => {
     this.props.navigation.navigate('Home')
   }
@@ -31,7 +35,7 @@ class Home extends React.Component {
           <TouchableOpacity style={styles.centered1}>
            <Text style={styles.sectionText}>MAPS</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1}>
+          <TouchableOpacity style={styles.centered1} onPress={()=>this.props.navigation.navigate('Todo')}>
            <Text style={styles.sectionText}>THINGS TO DO</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.centered1}>
@@ -46,6 +50,19 @@ class Home extends React.Component {
           <TouchableOpacity style={styles.centered1}>
            <Text style={styles.sectionText}>PHRASE BOOK</Text>
           </TouchableOpacity>
+          <TouchableOpacity style={styles.centered1}>
+           <Text style={styles.sectionText}>OTHERS</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.centered1}>
+           <Text style={styles.sectionText}>OTHERS</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.centered1}>
+           <Text style={styles.sectionText}>OTHERS</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.centered1}>
+           <Text style={styles.sectionText}>OTHERS</Text>
+          </TouchableOpacity>
+          
           
             
           
@@ -60,28 +77,15 @@ class Home extends React.Component {
 
 export default StackNavigator({
    Home: {screen: Home},
-//   APITestingScreen: {screen: APITestingScreen},
-//   ComponentExamplesScreen: {screen: ComponentExamplesScreen},
-//   DeviceInfoScreen: {screen: DeviceInfoScreen},
-//   PluginExamplesScreen: {screen: PluginExamplesScreen},
-//   ThemeScreen: {screen: ThemeScreen},
-//   FaqScreen: {screen: FaqScreen}
+   Todo: {screen: Todo}
 }, {
   cardStyle: {
     opacity: 1,
-    backgroundColor: '#3e243f'
+    backgroundColor: '#fff'
   },
   initialRouteName: 'Home',
-  headerMode: 'none',
+  headerMode: 'screen',
   // Keeping this here for future when we can make
-  navigationOptions: {
-    header: {
-      left: (
-        <TouchableOpacity onPress={() => window.alert('pop')} ><Image  style={{marginHorizontal: 10}} /></TouchableOpacity>
-      ),
-      style: {
-        backgroundColor: '#3e243f'
-      }
-    }
-  }
+  
+  
 })
