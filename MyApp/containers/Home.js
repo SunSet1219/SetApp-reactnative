@@ -13,8 +13,9 @@ class Home extends React.Component {
   openComponents = () => {
     this.props.navigation.navigate('Home')
   }
-  
-
+  gotoTodo = () => {
+    this.props.navigation.navigate('Todo',{ref: 'todo'})
+  } 
   render () {
     return (
       <View style={styles.mainContainer}>
@@ -35,7 +36,7 @@ class Home extends React.Component {
           <TouchableOpacity style={styles.centered1}>
            <Text style={styles.sectionText}>MAPS</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1} onPress={()=>this.props.navigation.navigate('Todo')}>
+          <TouchableOpacity style={styles.centered1} onPress={()=>this.props.navigation.navigate('Todo',{ref: 'todo'})}>
            <Text style={styles.sectionText}>THINGS TO DO</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.centered1}>
@@ -68,7 +69,7 @@ class Home extends React.Component {
           
           
         </ScrollView>
-        <TapBar />
+        <TapBar goto={this.gotoTodo} />
         
       </View>
     )

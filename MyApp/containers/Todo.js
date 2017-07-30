@@ -22,7 +22,7 @@ export default class Todo extends React.Component {
   };
   render() {
     const { navigate, goBack } = this.props.navigation;
-
+    //alert(JSON.stringify(this.props.navigation.state.params.ref))
     return (
       <View style={{ backgroundColor: '#fff', flex: 1, justifyContent: 'center' }}>
         <ScrollView style={styles.container}>
@@ -40,7 +40,7 @@ export default class Todo extends React.Component {
                 </Image>
             </TouchableOpacity>
         </ScrollView>
-        <TapBar/>
+        <TapBar state={this.props.navigation.state.params.ref}/>
       </View>
     )
   }
