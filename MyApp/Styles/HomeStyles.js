@@ -10,8 +10,7 @@ export default StyleSheet.create({
       top: 0,
       left: 0,
       bottom: 0,
-      right: 0,
-      
+      right: 0
     },
     container: {
       flex: 1,
@@ -29,9 +28,9 @@ export default StyleSheet.create({
       alignItems: 'center'
     },
     logo: {
-        borderRadius: 30,
-        width: 60,
-        height: 60,
+        borderRadius: 35,
+        width: 70,
+        height: 70,
         marginTop: 25
     },
       name: {

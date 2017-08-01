@@ -5,6 +5,8 @@ import { StackNavigator } from 'react-navigation'
 import styles from '../Styles/HomeStyles'
 import Todo from './Todo/TodoIndex'
 import TodoCity from './Todo/TodoCity'
+
+import StudentCard from './StudentCard/StudentCard'
 import TapBar from './Tapbar';
 
 const style = StyleSheet.create({ hideText:{ display:"none" } })
@@ -44,7 +46,7 @@ class Home extends React.Component {
           <TouchableOpacity style={styles.centered1}>
            <Text style={styles.sectionText}>MESSENGER</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1}>
+          <TouchableOpacity style={styles.centered1} onPress={()=>this.props.navigation.navigate('StudentCard'/*,{ref: 'todo'}*/)}>
            <Text style={styles.sectionText}>STUDENT CARD</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.centered1}>
@@ -77,7 +79,9 @@ class Home extends React.Component {
 export default StackNavigator({
    Home: {screen: Home},
    Todo: {screen: Todo},
-   TodoCity:{screen: TodoCity}
+   TodoCity: {screen: TodoCity},
+
+   StudentCard: {screen: StudentCard}
 }, {
   cardStyle: {
     opacity: 1,

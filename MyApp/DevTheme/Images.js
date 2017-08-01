@@ -10,7 +10,11 @@ const images = {
   other: require('../Images/london2.jpg'),
 
   London_landmark: require('../Images/london-landmarks.jpg'),
-  London_restaurant: require('../Images/london-restaurant.png')
+  London_restaurant: require('../Images/london-restaurant.png'),
+
+
+
+  Pen: require('../Images/pen.png')
 
 }
 
