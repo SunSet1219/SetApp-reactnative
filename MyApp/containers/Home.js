@@ -5,6 +5,7 @@ import { StackNavigator } from 'react-navigation'
 import styles from '../Styles/HomeStyles'
 import Todo from './Todo/TodoIndex'
 import TodoCity from './Todo/TodoCity'
+import Tododetail from './Todo/Tododetail'
 import TapBar from './Tapbar';
 
 const style = StyleSheet.create({ hideText:{ display:"none" } })
@@ -77,7 +78,8 @@ class Home extends React.Component {
 export default StackNavigator({
    Home: {screen: Home},
    Todo: {screen: Todo},
-   TodoCity:{screen: TodoCity}
+   TodoCity: {screen: TodoCity},
+   Tododetail: {screen: Tododetail}
 }, {
   cardStyle: {
     opacity: 1,

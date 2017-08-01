@@ -29,9 +29,9 @@ export default StyleSheet.create({
       alignItems: 'center'
     },
     logo: {
-        borderRadius: 30,
-        width: 60,
-        height: 60,
+        borderRadius: 35,
+        width: 70,
+        height: 70,
         marginTop: 25
     },
       name: {

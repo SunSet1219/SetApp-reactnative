@@ -34,7 +34,7 @@ export default class TodoCity extends React.Component {
                         <Text style={styles.label}>RANDMARKS</Text>
                     </Image>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.touch}>
+                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('Tododetail',{ref: 'todo'})}>
                     <Image source={Images.London_restaurant} style={styles.image} >
                         <Text style={styles.label}>RESTAURANTS</Text>
                     </Image>
