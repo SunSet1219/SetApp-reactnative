@@ -5,7 +5,7 @@ import styles from '../../Styles/TodoStyles'
 import TapBar from '../Tapbar';
 
 
-export default class TodoCity extends React.Component {
+export default class Tododetail extends React.Component {
     static navigationOptions = ({navigation}) => ({
         headerTitle: 'RESTAURANTS',
         headerStyle: { 

@@ -13,7 +13,10 @@ const images = {
   London_restaurant: require('../Images/london-restaurant.png'),
   map_img: require('../Images/map_img.png'),
   vector_flag: require('../Images/vector_flag.png'),
-  res_detail: require('../Images/res_detail.png')
+  res_detail: require('../Images/res_detail.png'),
+  tap_search: require('../Images/tap_search.png'),
+  alret: require('../Images/alert.png'),
+  uk_flag: require('../Images/flag/UnitedKingdom.jpg')
 
 }
 
