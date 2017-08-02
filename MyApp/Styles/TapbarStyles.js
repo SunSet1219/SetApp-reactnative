@@ -3,8 +3,7 @@ import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
     tapcontainer: {
         flexDirection: 'row',
-        justifyContent: 'space-around',
-        //position: 'absolute',
+        justifyContent: 'space-around',       
         alignItems: 'center',
         bottom: 0,
         zIndex: 10,

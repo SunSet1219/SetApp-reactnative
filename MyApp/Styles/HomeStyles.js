@@ -28,10 +28,10 @@ export default StyleSheet.create({
       alignItems: 'center'
     },
     logo: {
-        borderRadius: 35,
-        width: 70,
-        height: 70,
-        marginTop: 25
+        borderRadius: 40,
+        width: 80,
+        height: 80,
+        marginTop: 30
     },
       name: {
         fontFamily: 'Trebuchet MS', 
@@ -44,10 +44,11 @@ export default StyleSheet.create({
         color: 'white',
         fontSize: 13,
         fontFamily: 'Trebuchet MS',
-        marginTop:7
+        marginTop:7,
+        marginBottom: 10
       },
       centered1: {
         alignItems: 'center',
-        marginTop: 30
+        marginTop: 35
     },
 })

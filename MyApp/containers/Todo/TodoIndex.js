@@ -27,21 +27,21 @@ export default class TodoIndex extends React.Component {
             <ScrollView style={styles.container}>
                 
                 <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'LONDON, U.K',ref: 'todo'})}>
-                    <Image source={Images.London} style={styles.image} >
+                    <Image source={Images.london} style={styles.image} >
                         <Text style={styles.label}>LONDON, U.K</Text>
                     </Image>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'BERLIN GERMANY'})}>
-                    <Image source={Images.Berlin} style={styles.image} >
+                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'BERLIN GERMANY',ref: 'todo'})}>
+                    <Image source={Images.berlin} style={styles.image} >
                         <Text style={styles.label}>BERLIN GERMANY</Text>
                     </Image>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'MUNICH GERMANY'})}>
-                    <Image source={Images.Munich} style={styles.image} >
+                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'MUNICH GERMANY',ref: 'todo'})}>
+                    <Image source={Images.munich} style={styles.image} >
                         <Text style={styles.label}>MUNICH GERMANY</Text>
                     </Image>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'OTHERS'})}>
+                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('TodoCity',{title: 'OTHERS',ref: 'todo'})}>
                     <Image source={Images.other} style={styles.image} >
                         <Text style={styles.label}>OTHERS</Text>
                     </Image>

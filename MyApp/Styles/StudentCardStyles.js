@@ -11,34 +11,62 @@ export default StyleSheet.create({
     },
     contain: {
         marginHorizontal: 17,
-        marginVertical:35,
+        marginTop: 35,
         backgroundColor: 'white',
         justifyContent: 'center',
         borderRadius:10,
         paddingBottom: 30,
-        fontFamily: 'Trebuchet MS'
+        paddingHorizontal: 20,
+        shadowColor: '#000',
+        shadowOffset: {width: 0, height: 2},
+        shadowOpacity: 0.4,
+        shadowRadius: 2
+
+        
     },
     help: {
+        color: 'rgb(32, 47, 60)',
         fontSize: 22,
-        marginLeft: 20,
-        marginTop: 30,
+        marginTop: 35,
         fontWeight: 'bold',
         fontFamily: 'Trebuchet MS',
     },
     desc: {
-        fontColor: 'rgb(32,47,60)',
+        color: 'rgb(32, 47, 60)',
         fontSize: 16,
-        marginLeft: 20,
-        marginTop: 30,
+        marginTop: 35,
         fontWeight: '500',
         fontFamily: 'Trebuchet MS',
     },
-    myaddress: {
-        fontColor: 'rgb(32,47,60)',
+    textlabel: {
+        color: 'rgb(32, 47, 60)',
         fontSize: 16,
-        marginLeft: 20,
-        marginTop: 30,
+        marginTop: 32,
         fontWeight: '300',
-        fontFamily: 'Trebuchet MS'
+        fontFamily: 'Trebuchet MS',
+       
+    },
+   
+    label: {
+        color: 'rgb(32, 47, 60)',
+        fontSize: 16,
+        fontWeight: '300',
+        fontFamily: 'Trebuchet MS',
+         width: 60
+    },
+    textinput: {
+        marginLeft: 20
+    },
+
+   
+    viewInput: {
+        flexDirection: 'row',
+        marginTop: 35,
+        borderBottomWidth: 1,
+        borderBottomColor: '#d0d0d0',
+        paddingBottom: 10
+    },
+    imagedash: {
+        width:10, height:10, marginHorizontal:5
     }
 })

@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>LastAccessedDate</key>
+<<<<<<< HEAD
 	<date>2017-08-01T20:25:20Z</date>
+=======
+	<date>2017-08-01T16:19:20Z</date>
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 	<key>WorkspacePath</key>
 	<string>/Volumes/WORK/WORKDIR/SetApp-reactnative/ios/SetApp.xcodeproj</string>
 </dict>

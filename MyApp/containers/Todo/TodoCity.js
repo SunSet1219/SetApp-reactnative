@@ -25,22 +25,22 @@ export default class TodoCity extends React.Component {
             <ScrollView style={styles.container}>
                
                 <TouchableOpacity style={styles.touch}>
-                    <Image source={Images.London} style={styles.image} >
+                    <Image source={Images.recommended} style={styles.image} >
                         <Text style={styles.label}>RECOMMENDED</Text>
                     </Image>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.touch}>
-                    <Image source={Images.London_landmark} style={styles.image} >
+                    <Image source={Images.landmark} style={styles.image} >
                         <Text style={styles.label}>RANDMARKS</Text>
                     </Image>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.touch}>
-                    <Image source={Images.London_restaurant} style={styles.image} >
+                <TouchableOpacity style={styles.touch} onPress={()=>this.props.navigation.navigate('Tododetail',{ref: 'todo'})}>
+                    <Image source={Images.restaurant} style={styles.image} >
                         <Text style={styles.label}>RESTAURANTS</Text>
                     </Image>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.touch}>
-                    <Image source={Images.other} style={styles.image} >
+                    <Image source={Images.detail_other} style={styles.image} >
                         <Text style={styles.label}>OTHERS</Text>
                     </Image>
                 </TouchableOpacity>

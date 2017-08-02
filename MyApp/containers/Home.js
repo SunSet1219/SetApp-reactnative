@@ -7,6 +7,10 @@ import Todo from './Todo/TodoIndex'
 import TodoCity from './Todo/TodoCity'
 
 import StudentCard from './StudentCard/StudentCard'
+
+import Tododetail from './Todo/Tododetail'
+import PhraseBook from './Phrase_Book'
+
 import TapBar from './Tapbar';
 
 const style = StyleSheet.create({ hideText:{ display:"none" } })
@@ -52,21 +56,13 @@ class Home extends React.Component {
           <TouchableOpacity style={styles.centered1}>
            <Text style={styles.sectionText}>PACKING CHECKLIST</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1}>
+          <TouchableOpacity style={styles.centered1} onPress={()=>this.props.navigation.navigate('PhraseBook')}>
            <Text style={styles.sectionText}>PHRASE BOOK</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.centered1}>
-           <Text style={styles.sectionText}>OTHERS</Text>
+           <Text style={styles.sectionText}>CURRENCY CALCULATOR</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1}>
-           <Text style={styles.sectionText}>OTHERS</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1}>
-           <Text style={styles.sectionText}>OTHERS</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.centered1}>
-           <Text style={styles.sectionText}>OTHERS</Text>
-          </TouchableOpacity> 
+          
         </ScrollView>
         <TapBar goto={this.gotoTodo} />
         
@@ -81,7 +77,11 @@ export default StackNavigator({
    Todo: {screen: Todo},
    TodoCity: {screen: TodoCity},
 
-   StudentCard: {screen: StudentCard}
+   StudentCard: {screen: StudentCard},
+
+   Tododetail: {screen: Tododetail},
+   PhraseBook: {screen: PhraseBook}
+
 }, {
   cardStyle: {
     opacity: 1,

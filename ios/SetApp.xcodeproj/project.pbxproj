@@ -47,6 +47,10 @@
 		DDA233F5D9DE4B12B9371FC0 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9377C7294B74ED088699C4E /* libRNVectorIcons.a */; };
 		ECFDE464BAD54F98A45FD19F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57A3BA92354F4C9EBEF996FC /* MaterialCommunityIcons.ttf */; };
 		F45D14FC58D64CE0A6687B19 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41FF13EA833A4E2BB070FF41 /* Ionicons.ttf */; };
+<<<<<<< HEAD
+=======
+		953C5E50497940C5BF603D8C /* Brandon_blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = E94798BCA0FC4008A387A61B /* Brandon_blk.otf */; };
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,35 +117,55 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
+<<<<<<< HEAD
 		1F9F4BA41F311F7E004CCE17 /* PBXContainerItemProxy */ = {
+=======
+		1F6A719F1F30E3D000D80688 /* PBXContainerItemProxy */ = {
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
 			remoteInfo = "third-party";
 		};
+<<<<<<< HEAD
 		1F9F4BA61F311F7E004CCE17 /* PBXContainerItemProxy */ = {
+=======
+		1F6A71A11F30E3D000D80688 /* PBXContainerItemProxy */ = {
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
 			remoteInfo = "third-party-tvOS";
 		};
+<<<<<<< HEAD
 		1F9F4BA81F311F7E004CCE17 /* PBXContainerItemProxy */ = {
+=======
+		1F6A71A31F30E3D000D80688 /* PBXContainerItemProxy */ = {
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
 			remoteInfo = "double-conversion";
 		};
+<<<<<<< HEAD
 		1F9F4BAA1F311F7E004CCE17 /* PBXContainerItemProxy */ = {
+=======
+		1F6A71A51F30E3D000D80688 /* PBXContainerItemProxy */ = {
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
+<<<<<<< HEAD
 		1F9F4BAD1F311F7E004CCE17 /* PBXContainerItemProxy */ = {
+=======
+		1F6A71A81F30E3D000D80688 /* PBXContainerItemProxy */ = {
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			isa = PBXContainerItemProxy;
 			containerPortal = 13D2D9CD836F4DBB96AE7876 /* RNVectorIcons.xcodeproj */;
 			proxyType = 2;
@@ -313,6 +337,10 @@
 		A9377C7294B74ED088699C4E /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		F20F76548228434CB46487EE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		FC512598546142C5B09A1735 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		E94798BCA0FC4008A387A61B /* Brandon_blk.otf */ = {isa = PBXFileReference; name = "Brandon_blk.otf"; path = "../MyApp/Fonts/Brandon_blk.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -470,18 +498,32 @@
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
+<<<<<<< HEAD
 				1F9F4BA51F311F7E004CCE17 /* libthird-party.a */,
 				1F9F4BA71F311F7E004CCE17 /* libthird-party.a */,
 				1F9F4BA91F311F7E004CCE17 /* libdouble-conversion.a */,
 				1F9F4BAB1F311F7E004CCE17 /* libdouble-conversion.a */,
+=======
+				1F6A71A01F30E3D000D80688 /* libthird-party.a */,
+				1F6A71A21F30E3D000D80688 /* libthird-party.a */,
+				1F6A71A41F30E3D000D80688 /* libdouble-conversion.a */,
+				1F6A71A61F30E3D000D80688 /* libdouble-conversion.a */,
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		1F9F4B851F311F7E004CCE17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				1F9F4BAE1F311F7E004CCE17 /* libRNVectorIcons.a */,
+=======
+		1F6A71801F30E3CF00D80688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A71A91F30E3D000D80688 /* libRNVectorIcons.a */,
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -508,6 +550,10 @@
 				F20F76548228434CB46487EE /* Octicons.ttf */,
 				1C1F12910F26404F91210845 /* SimpleLineIcons.ttf */,
 				6C0E5DE5AE26404E90FDAE72 /* Zocial.ttf */,
+<<<<<<< HEAD
+=======
+				E94798BCA0FC4008A387A61B /* Brandon_blk.otf */,
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -729,7 +775,11 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
+<<<<<<< HEAD
 					ProductGroup = 1F9F4B851F311F7E004CCE17 /* Products */;
+=======
+					ProductGroup = 1F6A71801F30E3CF00D80688 /* Products */;
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 					ProjectRef = 13D2D9CD836F4DBB96AE7876 /* RNVectorIcons.xcodeproj */;
 				},
 			);
@@ -800,6 +850,7 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+<<<<<<< HEAD
 		1F9F4BA51F311F7E004CCE17 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -833,6 +884,41 @@
 			fileType = archive.ar;
 			path = libRNVectorIcons.a;
 			remoteRef = 1F9F4BAD1F311F7E004CCE17 /* PBXContainerItemProxy */;
+=======
+		1F6A71A01F30E3D000D80688 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 1F6A719F1F30E3D000D80688 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F6A71A21F30E3D000D80688 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 1F6A71A11F30E3D000D80688 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F6A71A41F30E3D000D80688 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 1F6A71A31F30E3D000D80688 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F6A71A61F30E3D000D80688 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 1F6A71A51F30E3D000D80688 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F6A71A91F30E3D000D80688 /* libRNVectorIcons.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNVectorIcons.a;
+			remoteRef = 1F6A71A81F30E3D000D80688 /* PBXContainerItemProxy */;
+>>>>>>> 7a8a7e33437f019cb6a9b1c825f3031c1f9856b5
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
@@ -980,6 +1066,7 @@
 				27C342A309294143B8A615E7 /* Octicons.ttf in Resources */,
 				A39F8B651C39497C963F9E2C /* SimpleLineIcons.ttf in Resources */,
 				8E7E5075D6AC414982CF202A /* Zocial.ttf in Resources */,
+				953C5E50497940C5BF603D8C /* Brandon_blk.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

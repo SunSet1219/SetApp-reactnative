@@ -4,17 +4,28 @@ const images = {
   profile: require('../Images/profile.jpg'),
   flag: require('../Images/flag/Germany.jpg'),
   topbar: require('../Images/topbar.jpg'),
-  London: require('../Images/London1.jpeg'),
-  Berlin: require('../Images/berlin1.jpg'),
-  Munich: require('../Images/munich1-germany.jpg'),
-  other: require('../Images/london2.jpg'),
 
-  London_landmark: require('../Images/london-landmarks.jpg'),
-  London_restaurant: require('../Images/london-restaurant.png'),
+  london: require('../Images/london.png'),
+  berlin: require('../Images/berlin.png'),
+  munich: require('../Images/munich.png'),
+  other: require('../Images/other.png'),
 
+  landmark: require('../Images/landmark.png'),
+  restaurant: require('../Images/restaurant.png'),
+  recommended: require('../Images/recommended.png'),
+  detail_other: require('../Images/detail_other.png'),
 
+  Pen: require('../Images/pen.png'),
 
-  Pen: require('../Images/pen.png')
+  map_img: require('../Images/map_img.png'),
+  vector_flag: require('../Images/vector_flag.png'),
+  res_detail: require('../Images/res_detail.png'),
+  tap_search: require('../Images/tap_search.png'),
+  alret: require('../Images/alert.png'),
+  uk_flag: require('../Images/flag/UnitedKingdom.jpg'),
+
+  studentCardDash1: require('../Images/dash1.png'),
+  studentCardDash2: require('../Images/dash2.png')
 
 }
 
