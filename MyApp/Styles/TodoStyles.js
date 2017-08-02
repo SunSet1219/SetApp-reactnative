@@ -17,7 +17,8 @@ export default StyleSheet.create({
         height: 150,
         borderRadius: 5,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+    
     },
     container: {
          paddingTop: 10
